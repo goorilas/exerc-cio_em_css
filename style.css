@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: darkolivegreen;
+    padding: 16px 0;
+    color: antiquewhite;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: left;
+}
+
+header li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8;
+    margin-bottom: 8;
+}
+
+.articles article a {
+    background-color: rgb(89, 146, 140);
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color: rgba(24, 179, 24, 0.8);
+}
+
+#economy {
+    background-color: rgb(210, 222, 114);
+}
+
+#economy .articles article a {
+    background-color: rgb(107, 98, 4);
+}
+
+#entretenimento {
+    background-color: aqua;
+}
+
+#entretenimento .articles article a {
+    background-color: rgb(94, 159, 209);
+}
+
+#entretenimento .articles article h3 {
+    color: rgb(94, 159, 209);
+}
+
+#agronegocios {
+    background-color: rgb(10, 99, 10);
+}
+
+#agronegocios .articles article a {
+    background-color: rgb(11, 138, 96);
+}
+
+#agronegocios .articles article h3 {
+    color: beige;
+}
